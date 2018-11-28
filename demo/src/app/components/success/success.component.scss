@@ -1,0 +1,35 @@
+.success{
+    width: 15rem;
+    margin: 4rem auto;
+    display:flex;
+    border:1px solid #eee;
+    border-radius: 20px;
+    background: #fff;
+    img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .s_right{
+        padding-left: 1rem;
+        flex: 1;
+        padding-top:1rem;
+    }
+}
+
+.list{
+    background: #fff;
+    padding:10px;
+
+    li{
+        display: flex;
+        line-height: 2;
+
+        .left{
+            width: 100px;
+        }
+        .right{
+            flex: 1;
+            text-align: right;
+        }
+    }
+}
